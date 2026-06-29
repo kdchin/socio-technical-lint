@@ -1,0 +1,27 @@
+Rule Name,Description,Why This Rule is Included
+LENGTH & READABILITY,,
+max-lines-per-function,Specifies a max number of lines per function (set to 35).,Shorter functions are more readable.
+max-lines,Specifies a max number of lines per file (set to 300).,Shorter files are more navigable.
+max-len,Specifies a character limit on lines of code (set to 120).,Long lines are difficult to read.
+max-nested-callbacks,Disallow deeply nested callbacks (set to 3).,Deeply nested callbacks are difficult to reason about.
+no-unused-vars,Disallows declaring variables that are not used.,Values that are not used should not be a part of production code.
+no-console,Disallows usage of console logging.,Logging or debugging code should not be a part of production code.
+naming-convention,Enforce consistent naming formatting (set to camelCase).,Readability and consistency throughout the codebase.
+explicit-function-return-type,Functions must have a return type annotation.,Annotating return types improves readability of code.
+no-magic-numbers,"Disallows usage of ""magic"" numbers.",Magic numbers result in code that is difficult to generalize and extend.
+explicit-member-accessibility,"Require usage of `public`, `private`, and `protected` for method declarations.",Annotating improves readability and encourages developers to consider appropriate usage.
+consistent-generic-constructors,"Specifies a way write type annotations for generic types (i.e. Set, Array).","Though there are several ways to do this, we choose one for consistency."
+TS/JS BEST PRACTICES,,
+prefer-optional-chain,Use the `?` operator to access potentially null attributes when possible.,"This is the best practice for javascript code, and results in concise code."
+prefer-for-of,Use `for...of` when iterating.,Best practice in javascript. Many loops are simple and do not require explicit variable iterator declarations.
+prefer-const,Use `const` if possible.,This is the best practice for javascript code. Using `const` communicates the value does not change.
+no-var,Disallow usage of `var`.,Use `let` or `const` instead.
+dot-notation,"Use foo.bar instead of foo[""bar""] when accessing object attributes",This is the best practice for javascript code.
+no-shadow,Variables in methods may not share (shadow) names of the class's attributes.,Shadowed variables may cause confusion and result in mistaken references.
+eqeqeq,Use `===` instead of `==`.,Using `==` results in unexpected behavior in javascript.
+no-floating-promises,Enforces that promises be `await`ed or otherwise handled.,Usage of promises is error prone. Floating promises are a common issue.
+no-await-in-loop,`await` may not be used in a loop.,"For performance reasons, use `Promise.all(...)` instead to take advantage of concurrency."
+no-async-promise-executor,Disallow `Promise(executorFunc()=>....).`,"Use the `resolve, reject` promise API."
+await-thenable,Disallow `await`ing something that is not a `Promise`.,"Awaiting something that is not a promise does not flag an error, but gives the reader a false impression of the value."
+no-misused-promises,Flag usages of promises that imply the user is expecting to use the value of the promise but has not yet `await`ed it yet.,Using promisies is error prone. A developer can easily forget to await a promise.
+promise-function-async,Enforces that functions that use promises are marked as `async`.,"Since promises are naturally asynchronous, their invoking function should also be annotated as such."

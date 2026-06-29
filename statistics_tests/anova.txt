@@ -1,0 +1,12 @@
+======================================================
+      ANOVA VARIANCE TABLE (FOR SCALAR PREDICTORS)    
+======================================================
+                                             sum_sq     df          F       p-value
+lint_count                               346.466717    1.0  28.673809  1.923020e-07
+inline_exc_count                          20.200163    1.0   1.671779  1.971999e-01
+lint_count:inline_exc_count               44.304603    1.0   3.666678  5.663841e-02
+fail_count                                37.174419    1.0   3.076579  8.063820e-02
+lint_count:fail_count                      2.116916    1.0   0.175197  6.758886e-01
+inline_exc_count:fail_count                0.464827    1.0   0.038469  8.446610e-01
+lint_count:inline_exc_count:fail_count    39.857733    1.0   3.298652  7.052025e-02
+Residual                                3057.008510  253.0        NaN           NaN

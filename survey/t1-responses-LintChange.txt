@@ -1,0 +1,616 @@
+Did you or your team modify, add, or remove the lint rules for your project this term (contained in the file .eslintrc.js)? If so, why? If not, why not?
+
+
+Yes, as the line requirement for one file is too small as well as the max line for one function. (r1_LintChange)
+
+
+Yes, because I was lazy and didn't want to make a bunch of separate files, so I increased the max allowable file length. Also we increased the max method length because we were lazy about that too. (r2_LintChange)
+
+
+We didn't because we thought the default lint rules were sufficient. (r3_LintChange)
+
+
+No, we didn't. (r4_LintChange)
+
+
+character line limits and function line limits. For me as a programmer, I prefer slightly less abstraction and I can make functions that were focused enough and clear enough for a specific responsibility but being limited by num lines was kind of annoying so I opted to change it just as preference for my style (r5_LintChange)
+
+
+I removed some lint rules because some restrictions are unreasonable (e.g, the maximum lines, etc) (r6_LintChange)
+
+
+Sometimes we would disable some line rules to speed up testing, otherwise our code wouldn't build. (r7_LintChange)
+
+
+We did - at first we violated some designs by doing most of our implementation in InsightFacade, which was definitely not right. We did have to tweak some stuff as our class had over 500 lines. (r8_LintChange)
+
+
+No. Because the lint rule is important for maintaining code quality, readability, and consistency within the project. (r9_LintChange)
+
+
+No. Keeping it is more helpful. (r10_LintChange)
+
+
+No. Did not know we are allowed to modify it + it covers a lot of the code smells we learned in class already. (r11_LintChange)
+
+
+I wanted to but didn’t (r12_LintChange)
+
+
+No, we never felt compelled to change them. (r13_LintChange)
+
+
+Yes, mainly because some methods got longer than expected so it had to be changed (r14_LintChange)
+
+
+We modified some of the (r15_LintChange)
+
+
+No, too behind in the project to worry about this type of stuff (r16_LintChange)
+
+
+modified long lines, long methods and long class
+I am just too lazy to refactor (r17_LintChange)
+
+
+No, didn't know how to./ didn't have to (r18_LintChange)
+
+
+No, mostly due to time pressure from work and other courses not allowing us the freedom to explore this. (r19_LintChange)
+
+
+No, didn't really have time to make adjustments to the linter (r20_LintChange)
+
+
+Yes, removed the max lines for functions. Didn't have the time to fix long functions because I was in a rush to finish C2. (r21_LintChange)
+
+
+No, we did not modify, add, or remove the lint rules in the .eslintrc.js file for our project this term. The default ESLint configuration provided was already strict and comprehensive enough to enforce good coding practices, catch potential issues early, and maintain consistency across our codebase. Sticking with the standard rules also ensured that our project met the course expectations and avoided any unnecessary conflicts during grading or code reviews. (r22_LintChange)
+
+
+We did not because I don't think it is needed. (r23_LintChange)
+
+
+No did not try. But if given the opportunity and it not affecting our grade would modify some of the rules. (r24_LintChange)
+
+
+No, since the linter doesn't seem to be a huge burden to us so long as we regularly run it. (r25_LintChange)
+
+
+not really, the one provided felt restrictive enough. (r26_LintChange)
+
+
+No. I didn't know I could do that (r27_LintChange)
+
+
+No. Didn’t want to mess with the grader. (r28_LintChange)
+
+
+Yes. We removed some rules, like requiring a method to always specify it's return type, since we think one of TypeScript's most powerful features is its type inference for method return signatures, and unless we need to manually specify a complex type, it's better to rely on the type inference. We also updated some lint rules to warn rather than error, since sometimes when developing, we intentionally do something "bad" to check the behaviour, and having error prevented the code from running. (r29_LintChange)
+
+
+no, to complicated. (r30_LintChange)
+
+
+No. As we were scared that the autograder will deny our code (r31_LintChange)
+
+
+I modified only one to allow console.log statements because I used it often when I was writing my code for testing purposes. (r32_LintChange)
+
+
+Yes, but I didn't use it because I didn't know (r33_LintChange)
+
+
+we did not (r43_LintChange)
+
+i believe we increased the file line limit. This was because we did not want to spend time to refactor the file into multiple due to time constraints. (r34_LintChange)
+
+
+I think we changed the max line length for methods since for C2 some of my team members' code was a little longer (r35_LintChange)
+
+
+No, it seemed pretty good imo (r36_LintChange)
+
+
+We removed the code line limit for a function because we felt some behaviour could not be separated into different functions and to abide by the SRP for a given function, it was necessary to have many lines of code. Maybe there was a simpler and shorter way to do it but we could not think of it. (r37_LintChange)
+
+
+We did not. We found the provided rules sufficiently helpful and did not want to increase our already stressful workload. I can understand that it would be helpful for other projects, however, to ensure improved code design. (r38_LintChange)
+
+
+Nope, we thought the current rules are sufficient for our project. (r39_LintChange)
+
+
+We did not, there were no cases where it would have been worth the effort. (r40_LintChange)
+
+
+I modified it once because I was getting a lint error for a long method that was one line longer than the max-len. Looking back, that may have just been laziness, because I didn't want to refactor that method completely if it was just one line over the max-len; I should have refactored it, and I think in a subsequent checkpoint, I did end up changing that method entirely. (r41_LintChange)
+
+
+We changed the line restriction - sometimes we needed lines to be longer same for function (r42_LintChange)
+
+
+No. Most of the rules were pretty reasonable. (r44_LintChange)
+
+
+did not modify, did not see the need as the linter was already comprehensive in my opinion (r45_LintChange)
+
+
+Made the max function length longer. (r46_LintChange)
+
+
+No, we didn't find any limitation using the provided eslint configs. (r47_LintChange)
+
+
+No because we were forbidden to do so. We were told explicitly to never do it. (r48_LintChange)
+
+
+I didn't because I did not know we were allowed to change it. (r49_LintChange)
+
+
+We did not - I didn't know we could. (r50_LintChange)
+
+
+Maximum size for funciton, due to time crunch and did not have time to refactor methods. (r51_LintChange)
+
+
+No we did not. We felt like the lint rules are very helpful. (r52_LintChange)
+
+
+Yes the function length part of it specifically. I agree that most industry projects should aim for lower function lengths although some functions cannot be shorter than 25 lines such as my recursive descent parsing one. I also find there is a balance between spending time on good design and just getting it working to finish the checkpoint and handle your other classes. My team and I were fine with taking on technical debt and not having functions adhere to the 25 line restriction. We also disabled the total lines of code in a file restriction for similar reasons. (r53_LintChange)
+
+
+didnt add any new lint rules as I didnt know i could however I probably wouldn't have added additional ones just based on time constraints (r54_LintChange)
+
+
+Nope. Already a LOT of rules to follow... too afriad to break anything unnecessarily (r55_LintChange)
+
+
+no. because it was actually helpful and I thought those lint were fair enough to improve my code. (r56_LintChange)
+
+
+No, because I wanted to learn the "correct" design even if it may be frustrating at times (r57_LintChange)
+
+
+No, it seemed sufficient for our needs (r58_LintChange)
+
+
+no, I didn't know how to change the linter rules (r59_LintChange)
+
+
+usually removed lint rules while implementing, and then refactored to satisfy lint rules. (r60_LintChange)
+
+
+We did not, it didn't seem worth it and we didn't run into many problems with the rules that were present. (r61_LintChange)
+
+
+no, we want to comply to the course code style standard, so that the build is working for autotests (r62_LintChange)
+
+
+Nope, I didn't know we were allowed to for this project. My assumption was that the autograder had it's own linter config, but I guess that might not have been the case. (r63_LintChange)
+
+
+No modification, it was very robust, actually more robust than a lot of the linters I've used (since I believe that there are custom rules that need to be manually configured) (r64_LintChange)
+
+
+No, we thought that the rules that were already applied were good enough. (r65_LintChange)
+
+
+No none, because I think that the rules that were given were more than enough to help keep our code to a "standard" that was considered acceptable. (r66_LintChange)
+
+
+No, I agreed with all of the lint feedback. (r67_LintChange)
+
+
+My partner modified the linter to remove the limit on method length so he wouldn't have to modify a very long method. (r68_LintChange)
+
+
+No, didn't know about it (r69_LintChange)
+
+
+Did not because did not want to break the working project as everything was already given. (r70_LintChange)
+
+
+No. We feel like the default lint rules were good enough. (r71_LintChange)
+
+
+Removed the file length one and function length one. At some point it didn't make sense for us to split it into a helper function that will only be used once just for the sake of brevity. Especially when we were only a few lines over. (r72_LintChange)
+
+
+No, since all the existing settings are good to go. And we are not quite familiar with how to modify that. (r73_LintChange)
+
+
+I realized that changing the lint rules would be helpful in the middle of the project, but I didn't make those changes because I thought it would cost me some time and effort to adjust my current code to those changes, and I did not have enough time to do so. (r74_LintChange)
+
+
+no (didn't know we were allowed to) (r75_LintChange)
+
+
+No, since we didn’t run into any major issues with the existing rules, we didn’t see a need to change them. (r76_LintChange)
+
+
+No, I felt like it was apt. Also more work than it needed to be. (r77_LintChange)
+
+
+No because I felt they were sufficient for the project (r78_LintChange)
+
+
+I did not, because I didn't want to mess things up by accident. (r79_LintChange)
+
+
+No, we wanted to follow the course team's recommendation. (r80_LintChange)
+
+
+No because lint is very useful (r81_LintChange)
+
+
+No. I didn’t know that was possible (r82_LintChange)
+
+
+I personally did not. Lint rules really didn't come into play very often, and usually it was easier to work around them then change the rules. (r83_LintChange)
+
+
+yes files too long, didnt have time to work (r84_LintChange)
+
+
+no we did not see any need to modify the provided rules (r85_LintChange)
+
+
+*maybe* make the max function length longer and also the max nested function depth longer. they were sometimes just annoying to deal with and didn't have a good reason for being there. (r86_LintChange)
+
+
+we used the default linter because it worked good enough (r87_LintChange)
+
+
+We did not modify at all. It by itself was already functioning very well. (r88_LintChange)
+
+
+We removed the magic numbers rule - it was really annoying when trying to write unit tests. It's unreasonable to have to define a constant for every single parameter when constructing an object.
+
+We also removed the await inside for loop rule - we know it's bad practice to put awaits inside for loops, but we were short on time and had to break this rule occasionally. (r89_LintChange)
+
+
+Sometimes. Magic number inside the test cases is unavoidable and the linter keeps complain about it, which is quite annoying (r90_LintChange)
+
+
+No we kept them because they allowed us to write consistent code. (r91_LintChange)
+
+
+No, we felt no need to. The rules in our eslint file were pretty standard so the idea of changing any rules never came up. (r92_LintChange)
+
+
+No. I thought the linter had to be aligned with the autograder (r93_LintChange)
+
+
+We did not. We did not know we could modify the rules for it. (r94_LintChange)
+
+
+no, we felt that keeping the linter as is would provide more of the intended 310 experience. (r95_LintChange)
+
+
+I just wanted to be able to make slightly longer methods (like 40 lines instead of 25) 
+At crunch time I was not interested in the best coding practices, so I don't know if I would go back and do it the same again, since shorter methods are way more readable. (r96_LintChange)
+
+
+No, we did not. We were behind on our project checkpoints so it wasn't a priority. (r97_LintChange)
+
+
+yes, briefly, but only to progress in writing my code (r98_LintChange)
+
+
+We didn't as we thought the given linter restrictions were suitable for the project. (r99_LintChange)
+
+
+Yes, my teamate doesn't want the linter to restrict the number of line in a function, so he adjusted the linter setting (r100_LintChange)
+
+
+Already filled up once, please discard this one!
+Sorry! but want to make sure I did submit with the correct cwl! (r101_LintChange)
+
+
+we dropped quite a few rules and lowered pretty much all of them to warn instead of error. stuff like not checking in console.logs into codebase wasn't helpful at all to development, we couldn't leave these in and send it to our partners via git and have them see the same output. (r102_LintChange)
+
+
+We increased the max line size for a class. We realise that this suggests that our class violated the SRP, but the refactoring of the class would have been extremely tedious and introduced bugs. (r103_LintChange)
+
+
+no, cuz lazy (r104_LintChange)
+
+
+Removed the 36 lines per function rule, that's too little lines for certain functions and it was annoying refactoring them into multiple helpers. (r105_LintChange)
+
+
+No, I didn't know how to. (r106_LintChange)
+
+
+I did not to avoid any conflict in grading (r107_LintChange)
+
+
+We did not edit any rules, since we were worried that it may format our code in a way that the autograder does not like. (r108_LintChange)
+
+
+No, since we thought line rules need to be followed. (r109_LintChange)
+
+
+No. I don't find any incentive to modify them since they've provided good rules. (r110_LintChange)
+
+
+No, it works well for our project (r111_LintChange)
+
+
+No. In majority of the situations, out team found that the linter offer fair suggestions in enforcing us following proper design guidelines, and it is great practice for us to improve on our coding skills in general. (r112_LintChange)
+
+
+I modified the lint rule about maximum lines for functions to warn instead of fail to build so that I could continue to see the feedback, but could save refactoring those functions for later. (r113_LintChange)
+
+
+no, we want to follow the rules. (r114_LintChange)
+
+
+We did not modify any of the lint rules. We only excluded them from some of the .jsx files in c3 since they weren't compatible with jsx. (r115_LintChange)
+
+
+No, we read what it does. We thought that it wouldn't change logic of our code, so we left it. (r116_LintChange)
+
+
+No, I would not know how to do that. (r117_LintChange)
+
+
+We did not modify the lint rules in our .eslintrc.js file. The default configuration provided a solid foundation for writing clean and consistent code. Sticking to the standard rules also helped avoid unnecessary confusion and ensured that our entire team was aligned in terms of style and structure. It made code reviews smoother and kept our focus on functionality and design rather than formatting debates. (r118_LintChange)
+
+
+We did not. Mostly because we are worried the auto-grader will not accept such modification. (r119_LintChange)
+
+
+yes; we increase the line limit per file as dissecting some big classes took too much time (r120_LintChange)
+
+
+We did not remove any of the lint rules as it help us follow the guidelines of autotest, which we felt were important. (r121_LintChange)
+
+
+no. take times to learn and didn't feel the need (r122_LintChange)
+
+
+I did not, I was too lazy lol (r123_LintChange)
+
+
+Yes, there were a few lint rules that was removed, mostly dealing with code format and limitations on function size and line lengths. It was done because it would otherwise require a lot more refactoring and/or violate some other principles so it was better to have slightly bigger functions than the lint rule recommend. (r124_LintChange)
+
+
+I did not modify, add or remove lint rules. This is because I want to ensure that I did things the right way, as the instructors intended. (r125_LintChange)
+
+
+No- we attempted to change the rules in one specific situation below, but Autotest rejected our submission so we changed it back. (r126_LintChange)
+
+
+I don't like no magic number rule as well as the don't make lines too long rule. Sometimes those long lines were necessary because we had long function names! which we needed so we didn't have to write so many comments (and that's a philosophy you guys taught us in lecture!). Sometimes magic numbers are much more efficient and reduce the number of lines that we use in the code. (r127_LintChange)
+
+
+No, we changed our implementation rather than changing lint rules to improve  the quality of our code. (r128_LintChange)
+
+
+we removed the "no-magic-numbers", and "no-unused-vars" rules and updated "max-len" from 120 to 130 for the linter (r129_LintChange)
+
+
+Nope, we felt linter helped us maintain manageable code, making sure if we are including to much code in a function or file then we refractor it to be in smaller chunks/in different files making sure our code both readable and understandable (r130_LintChange)
+
+
+no used the normal rules (r131_LintChange)
+
+
+We modified some. It was sometimes annoying to need to think about the maximum number of lines in a function when we were trying to just get it to work. This sort of thing was instead more helpful as warnings to be fixed after the development of each milestone was done. Also, one specific rule somehow caused prettier to fail when we adhered to it, and the linter would give us an error when prettier was fixed. I can't remember exactly what it was but we ended up needing to just turn it off. (r132_LintChange)
+
+
+i didnt bc it didnt bother me much (r133_LintChange)
+
+
+No because I didn't think of it. (r134_LintChange)
+
+
+We didn't modify or remove any lint rules. Everything flagged by the linter aligned with industry best practices, so we kept the default configuration. (r135_LintChange)
+
+
+We did not as we didn't face any significant issues from the linter. We actually enjoyed the linter a lot as it held us accountable for following good coding practices. (r136_LintChange)
+
+
+Removed max functions per line for mocha chai testing (r137_LintChange)
+
+
+We did not change anything. I found it already quite good by what was provided. (r138_LintChange)
+
+
+I tried I could not. I would maybe increase the number of lines per function a bit. However, not going to lie it still helped my design incredibly. So also not a bad idea to still use it in the future (r139_LintChange)
+
+
+No extra rules. (r140_LintChange)
+
+
+We changed the max lines per file to 500 and the max lines per function to be 50. They were too restrictive and were causing unnecessary decomposing of files into multiple files (a file with helper functions for validating queries into multiples files) or decomposing a function into multiple function that caused a decrease in readability. (r141_LintChange)
+
+
+Did not modify any of the rules instead reformatted if there was ever any problems in code length etc. (r142_LintChange)
+
+
+no, we afraid that it will affect grading (r143_LintChange)
+
+
+Yes, I had to comment out some lint rules. Near the deadline, finishing the project undeniably takes precedence over avoiding code smells -- and sometimes, it is easier to write a very long method or class as opposed to refactoring it. It is a good example of how easily technical debt can acrue. (r144_LintChange)
+
+
+I think at some points we wanted to write some long code thus had to increase the max. allowed characters per line. (r145_LintChange)
+
+
+Yes, I did update the limit for number of lines of a class, as my class for query engine validation involves more lines of code, which could be hardly divided into 2 classes. (r146_LintChange)
+
+
+We did not change it at all. We were too lazy to :P. Personally, I didn't know we were allowed to change the lint rules so that's my bad! (r147_LintChange)
+
+
+No, I think my partner removed a lint rule but I'm not sure which one or why. I didn't have issues resolving lint errors so I didn't change any rules. (r148_LintChange)
+
+
+We didn’t modify any linter rules, both because we didn’t realize we could and because we thought they were sensible. (r149_LintChange)
+
+
+not really as far as I know; my partner might have made some minor changes (r150_LintChange)
+
+
+We modified the method line limit and the class line limits. I think that including these is definitely good for keeping things under control, we had a couple methods that could not be reduced to the limit originally set so we upped the cap just a little bit to allow for more flexibility (r151_LintChange)
+
+
+I did add a lint rule to do yarn prettier:fix and yarn link:check as well at the tests in one command to speed up testing. (r152_LintChange)
+
+
+(To clarify, I had the linter installed since before the course started (I have already done development in JavaScript before, and, well, ESLint is like the de facto standard)).
+
+
+The only thing we modified was at the very end, when we increased the maximum number of lines in a method at the last minute because we didn't have time to refactor it before the deadline. (r165_LintChange)
+We somewhat increased the maximum amount of lines per file, and the maximum amount of lines per function. The amount of lines per file seemed to favour a code design with one class per file, but I believe that that design choice is not optimal for all projects. The amount of lines per function was preventing us from writing switch statements, which are somewhat verbose but not particularly hard to read, so they should be fine. (r153_LintChange)
+
+
+No. Existing lint setup is already good enough. (r154_LintChange)
+
+
+no, didn't feel like we had to (r155_LintChange)
+
+
+No, because I didn't know if messing it up would cause issues within the autograder. (r156_LintChange)
+
+
+No. We didn't have any issues with the lint rules and could easily modify our code so that there were no defects. (r157_LintChange)
+
+
+I removed the no magic numbers rule because for testing, I would use numbers from the index.htm file for room number for the room I was testing and I thought that it would be unnecessary to make variables just for that.
+
+I also increased the max lines per function rule from 35 to 40 since sometimes it's hard to split up a function when parts of the function depend heavily on many variables declared in other parts of the function and if I were to split it up, I would have the code smell of too many parameters. (r158_LintChange)
+
+
+No, because we did not really run into too many problems, so we kept it as is. (r159_LintChange)
+
+
+There were points in the project where we would disable the litter because it was giving some errors that were not necessary when we were testing certain points of the program. (r160_LintChange)
+
+
+We did not touch the file. We did not know we could modify it that way or even if we were allowed to. (r161_LintChange)
+
+
+No, too lazy to (r162_LintChange)
+
+
+We removed the line limit for functions, as we felt it was too restrictive and we confirmed that our design was okay with our TA (r163_LintChange)
+
+
+Yes. The "Magic Numbers" was annoying, because testing for specific grades like testing for "greater than 50" meant we needed numbers, but the linter would forbid that due to "magic numbers"
+Also, in some cases, you just need a large function, but the linter rule for limiting function lengths was also annoying. (r164_LintChange)
+
+
+No we didn't. (r166_LintChange)
+
+
+We wanted to, but just left it alone because it was too much of a hassle. Honestly it was a bit unfair at times and we felt the need to work around it. (r167_LintChange)
+
+
+No, never felt motivated enough to change it (r168_LintChange)
+
+
+Some rules such as max function lines, as it slowed us down. (r169_LintChange)
+
+
+changed the file size length because we had related functions that should belong in the same file (r170_LintChange)
+
+
+No, I'm not familiar enough with lint rules to feel comfortable modifying them. (r171_LintChange)
+
+
+We removed the line length and function length linter. (r172_LintChange)
+
+
+We didn't modify the lint rules since we just thought it made sense. (r173_LintChange)
+
+
+no we didn't, just keep the repo as it is originally is (r174_LintChange)
+
+
+The number of lines for a single function, some functions are particularly long (r175_LintChange)
+
+
+We didnt because we believed lint helped make our design cleaner (r176_LintChange)
+
+
+No, as we interpreted one Piazza post to mean that changing the lint rules might cause issues with the autograder. (r177_LintChange)
+
+
+No as some rules regarding function length served to not make the code messy and hard to read (r178_LintChange)
+
+
+Yes, we did remove one or two rules, they were mostly because we were running out of time with the checkpoints and some of these warnings/errors require major refactoring... (r179_LintChange)
+
+
+We did not since we didn't know we were able to change it. But it did reinforce good habits (r180_LintChange)
+
+
+no, didn't notice that (r182_LintChange)
+
+
+We did not modify, add, or remove any lint rules in our .eslintrc.js file during the term. Our decision was intentional — we wanted to align with the default linting configuration provided by CPSC 310 to ensure compatibility with Classy auto-grading and avoid unintentional style violations that might impact our evaluation.
+
+Sticking to the default rules also helped us focus on writing clean, consistent code across the team without introducing personal preferences or unnecessary debates over formatting. The existing rules were strict enough to catch common issues (e.g., unused variables, missing returns) and helped reinforce good habits like consistent spacing, type safety, and arrow function usage.
+
+If we had felt that the rules were too restrictive or causing friction, we might have considered changes — but overall, the default setup supported our workflow well and ensured that our code remained readable, maintainable, and CI-compliant throughout the project. (r183_LintChange)
+
+
+Yes, to extend the limit of lines for a file. It would have been extremely inconvenient to separate our code for a file into two. (r184_LintChange)
+
+
+Not to any significant extent. Although I wish we did turn off the linting for magic numbers on tests. I wasn't aware we were allowed to change linting since the autograder traumatized me in C0. (r181_LintChange)
+
+
+We did not as we think it was already very beneficial. (r185_LintChange)
+
+
+No, we didn’t look into it that much because we thought the default setting worked pretty well (r186_LintChange)
+
+
+No, because I thought that if I did the autograder would complain. (r187_LintChange)
+
+
+No I didn't think we were allowed (r188_LintChange)
+
+
+No, did not modify (r189_LintChange)
+
+
+No, we left the lint rules in place since we were trying to follow the best code practices for the projet and (r190_LintChange)
+
+
+No, we try to adhare all the linter rules to ensure the code quality. (r191_LintChange)
+
+
+We only modified the lint rules regarding the length of a line of code because in some points we had no other way to further shorten a line of code (r192_LintChange)
+
+
+No, because we did not feel the need to (r193_LintChange)
+
+
+No but I don’t like the linter error that tells me I didn’t handle an exception. Sometimes it’s intended (r194_LintChange)
+
+
+No we didnt add or remove any rules because we didnt know we could or how (r195_LintChange)
+
+
+No. Once we were familiar with different linting error, they were quite helpful in making sure there weren't any semantic error that we made throughtout the code. There were instances when we found the linters to be annoying but in the long run we knew they were doing more good than harm. (r196_LintChange)
+
+
+No, my team did not. This is because we did not find the default lint rules limiting in any way. (r197_LintChange)
+
+
+We did not. The lint rules already gave us a good guideline of where we can check for issues in our code. (r198_LintChange)
+
+
+No we didn't as we didn't know what would be appropriate to modify. (r199_LintChange)
+
+
+We did not, since most of the linting rules were required for the autograder. (r200_LintChange)
+
+
+We did not make any modifications to the lint rules. (r201_LintChange)

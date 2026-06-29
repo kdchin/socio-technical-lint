@@ -1,0 +1,654 @@
+Reflect on your interaction with lint this semester. In what ways was lint beneficial or detrimental for your development process?
+
+
+Keep good code format.
+Limit some method of code if it is a little bit long. (r1_LintOverall)
+
+
+It was helpful in that it allowed us to maintain consistent style throughout. It was detrimental in that every time we ran the autobot we almost always forgot to lint check it and therefore we wasted bot calls. (r2_LintOverall)
+
+
+Beneficial: made code clean and consistent, helped formatting. Detrimental: some were difficult to debug (like a function being too long, which made us remove empty lines and made some functions really compact and difficult to read), added overhead. (r3_LintOverall)
+
+
+It helps us better at code sanitation in terms of the format, indentation of the code. (r4_LintOverall)
+
+
+sometimes it was detrimental in terms of having to rearrange some things for the line/char limits but after changing those rules it was fine (r5_LintOverall)
+
+
+The lint benefits me by detecting semantic flaws in my project code, but the rules could be unreasonably strict which could also be detrimental. (r6_LintOverall)
+
+
+For the most part, it was helpful because it helped me identify bad practices. For example, if a method was too long, it was a sign to reconsider whether the method was violating SRP or if there was duplicated code. It was reflective tool that forced me to check my code. (r7_LintOverall)
+
+
+it helped in catching errors that could have been easily avoided, it is nice (r8_LintOverall)
+
+
+I think it was beneficial. It was helpful to have a tool that could check it for us and also nice getting some experience looking into how to use a new tool. I would definitely be interested in using it in other projects. (r9_LintOverall)
+
+Lint was a helpful tool that caught errors early and enforced cleaner code, making my projects more reliable and easier to collaborate on. However, it sometimes slowed me down with strict rules, especially under time pressure. Overall, its benefits outweighed the drawbacks, pushing me to grow as a developer. (r10_LintOverall)
+
+
+It helped me avoid errors. (r11_LintOverall)
+
+
+Helpers align code and brackets so I don't have to go through each line to fix tiny formatting issues. (r12_LintOverall)
+
+
+The line limit was annoying (r13_LintOverall)
+
+
+It was beneficial in the sense that it reduced our code smells. (r14_LintOverall)
+
+
+Helpful since it made the code more clean to leave and I don't think there was any real negatives since the option was always there to go ahead and change/edit the lint (r15_LintOverall)
+
+
+I think it was detrimental. When I encounter a linter issue, I just come up with the solution that fixes the problem the fastest such that it would pass the autograder. For example, if I had a function that was too long, I would just make my code more compressed like changing if statements to one liners etc. So it was arguably worse code. Or changing the error messages to be shorter (r16_LintOverall)
+
+
+Overall fine but, I think the max number characters per line of code restriction for the linter could be relaxed (r17_LintOverall)
+
+
+it is quite beneficial to help me sopt bugs at an earlier stage (r18_LintOverall)
+
+
+Help keep me and my partners code consistent (r19_LintOverall)
+
+
+the lint was good as it helped me be fix parts of my code that i felt were incorrect or not designed properly (r20_LintOverall)
+
+
+When enabled in the IDE, it gave useful notices for when breaking code style, adding code bloat, or introducing code smells. (r21_LintOverall)
+
+
+I would say my experience with lint this semester was overall neutral. I didn't really feels its impact when working on my project. (r22_LintOverall)
+
+
+I found sometimes it was easy to just run yarn:prettier and have it fix all of my issues instead of understanding WHY each issue was wrong. As much as yarn:prettier was nice, it also would probably be more beneficial to force us to go back and manually fix issues, which makes us get in the habit of not making them to begin with (r23_LintOverall)
+
+
+It helped us catch small issues early—like unused variables, inconsistent spacing, or missing semicolons—that could easily be overlooked but impact code quality. More importantly, it enforced a consistent coding style across the team, which made our codebase easier to read and review. It also acted as a quick sanity check before committing code, saving us time in the long run (r24_LintOverall)
+
+
+Lint is beneficial because it reminds you when your methods are too long. (r25_LintOverall)
+
+
+I would say it is beneficial to use the linter as it forces me to break long methods down so that I would be able to understand my methods better after I wrote them. (r26_LintOverall)
+
+
+It was very interesting, at one point it bothers my flow when coding IE when im just jotting stuff down in logical terms in code as it screams errors to me, on the other its very helpful when im actually writing code. (r27_LintOverall)
+
+
+It makes the code looks tidier and improves the efficiency of the code in general (r28_LintOverall)
+
+
+It really helped ensuring we followed better code principles, but got annoying at times (magic numbers) (r29_LintOverall)
+
+
+it kept my code clean, consistent, and easier to read, especially when working in a team. It also helped me catch small mistakes early, like unused variables or bad formatting, which saved time during debugging. (r30_LintOverall)
+
+
+Lint was overall ok for our development process. It helped sometimes to ensure that we always awaited a promise (for example), but we didn't rely on it too much. (r31_LintOverall)
+
+
+Helped us identify magic numbers. (r32_LintOverall)
+
+
+I think it was beneficial for keeping the code clean and structured. However, I do think some of the rules were a bit too strict, like the long methods limit and the magic numbers thing. (r33_LintOverall)
+
+
+Linter keeps our code clean so it was helpful when I tried debugging my teammate's code. (r34_LintOverall)
+
+
+Linter helped me not introduce variables that I never used and also made sure I avoided code smells like long methods and bloated classes that violated SRP (r35_LintOverall)
+
+
+Beneficial, helped with formatting and good code structure (r36_LintOverall)
+
+
+Overall it was beneficial (r37_LintOverall)
+
+
+Beneficial - lint rules are in place to drive principled and clear code
+Detrimental - sometimes just wanted to test something but the lint error would be in the way (r38_LintOverall)
+
+
+It helped with maintained good code practices, as writing a bunch of new code, then running the linter and formatter without errors was a good feeling (r39_LintOverall)
+
+
+The linter helped us fix semantic defects in the code so it was definitely beneficial for the project apart from the one change in the linter settings as mentioned above. (r40_LintOverall)
+I think the main way it was detrimental was when trying to commit and run local tests or the autograder. Sometimes, we just wanted to see if specific tests passed while others were commented out but the linter would force us to uncomment them or comment out imported packages and similar things, which would be annoying and time-taking when we simply wanted to see if something worked. Similarly, sometimes we were aware that we needed to improve the code design (getting rid of magic numbers, perhaps), but our priority was to fix major bugs first, but we were unable to get results from the autograder without first fixing all lint issues, which slowed us down.
+
+It was definitely beneficial in helping us identify slow code, or other areas of improvement to make our code neater and more efficient. It was just while testing and running the bot that it could get annoying. (r41_LintOverall)
+
+
+easy (r42_LintOverall)
+
+
+It's beneficial in avoiding some code smell while implementing, but it's quiet annoying to have such a short line limit for functions as sometimes the formater makes each variable on new column (like fields in rooms data) but then the function row limit is so little after it counts for those row numbers. (r43_LintOverall)
+
+
+I found it annoying when we didn't know the rules very well (mainly during c1) as we finished our implementation and then had like 70 small things to fix. The method/file size ones especially were very restrictive in some cases, where a single method needed more lines but had to be broken into 2 for no reason, causing frustrating cohesion breaks. (r44_LintOverall)
+
+
+Lint was beneficial because although it did slow down the process at times (fixing lint errors in order for build to succeed), I think it truly did end up improving the quality of our code. (r45_LintOverall)
+
+
+I feel like it was beneficial to ensure the code was readable and easy to navigate (r46_LintOverall)
+
+
+It helped me add better typing to variables. However, the class length and function line limits were annoying. (r54_LintOverall)
+For the most part it was beneficial. Although it definitely lead to some frustrations for lines too long or methods too long. Felt almost like artificially constraining and nothing I would use outside of an academic setting. (r47_LintOverall)
+
+
+It often slowed down the dev process due to the need to constantly refactor. But this made the code more organized. (r48_LintOverall)
+
+
+made code easier to read, made me do more refactorings to adhere to Single responsibility principle and short methods (r49_LintOverall)
+
+
+It was mostly beneficial, so that we do not have to go back and fix things (r50_LintOverall)
+
+
+Help avoid clutter like dead variables. (r51_LintOverall)
+
+
+Sometime it can be annoying but I believe it result in a better code quality. (r52_LintOverall)
+
+
+Lint helped me write better, more readable code. (r53_LintOverall)
+
+
+It was beneficial to avoid us from writing long methods and making sure to refactor and structure code properly. However sometimes the messages it showed did not really make sense to me / i didn't know how to fix it. (r55_LintOverall)
+
+
+Somewhat beneficial, did not affect development process much. (r56_LintOverall)
+
+
+Lint was pretty helpful, it caught little bugs and kept our code consistent. Sometimes it was a bit picky, but overall it made the code cleaner and easier to manage. (r57_LintOverall)
+
+
+Lint was great when it reminded me of magic numbers and when I could concurrently call promises. I’ve used lint before in my internships and the settings were similar there although there wasn’t as much restriction on function length. (r58_LintOverall)
+
+
+Beneficial as it helped me through development catch errors (r59_LintOverall)
+
+
+Enforce reasonable design and coding style.
+Sometimes feels unnecessary. (r60_LintOverall)
+
+
+Yes It was actually beneficial to improve my code, but detrimental to wasting my autobot attempt...... (r61_LintOverall)
+
+
+The provided linter helped enforce good design principles. In particular, for long methods, classes and parameter lists. These are issues I would have not dealt with if not for the linter. (r62_LintOverall)
+
+
+Lints helped me in the sense that I was able to write prettier and cleaner code, and it helped me detect some code smells, but it also hindered me in the sense that when I called the autobot on unlinted code, it would use one of the 3 tries I had. (r63_LintOverall)
+
+
+beneficial for quality of code, detrimental for running the code sometimes (r64_LintOverall)
+
+
+Linter was very beneficial in how it pointed us towards best practices for using TypeScript, especially since this was my first time using the language and I probably would have run into some issues otherwise. Also was very good for pointing out mistakes (detecting when something doesn't make any sense), or design issues to be resolved (long methods/classes). I wouldn't say it was particularly detrimental, other than occasionally requiring some refactors that while valuable were frustrating on such a tight timeline. (r65_LintOverall)
+
+
+it is detrimental to the development process occasionally when the error information is not clear. For example, for the test.ts file I implemented for my code, it was showing to me it() contains too many lines, but not in my partner's IDE with the similarly structured tests. This can be confusing. (r66_LintOverall)
+
+
+helped avoid simple mistakes (r67_LintOverall)
+
+
+It was good to be able to check if we were making any semantic errors. For the most part, it did just make it a bit harder to get away when we didn't know what type to declare. But for the most part I think it was pretty neutral.
+
+Not fully relevant, but I had a much worse experience with prettier, since it would often fail even when I didn't make any changes to the code (probably a windows line return thing). (r68_LintOverall)
+
+
+very beneficial - using it regularly and modifying code to fix it made sure that good coding behaviour was subconsciously implanted so I can avoid the linter errors (which slow down development) (r69_LintOverall)
+
+
+It was beneficial to make the code clearer and hinted at refactoring when the code was getting to long and required attention. It was kind of annoying that at times (like the 300 line rule and the max words per line), but it did help make the code a lot more organized. (r70_LintOverall)
+
+
+I think that it was beneficial in the way that it made my code cleaner and easier to read and understand and stopped me from writing functions/lines that were too long and getting to a point of creating confusion. (r71_LintOverall)
+
+
+there are functions that happen to be very large, and failing the lint check means spending a ton of time refactoring. (r72_LintOverall)
+
+
+lint was helpful with catching errors and code smells that I might have otherwise ignored (r73_LintOverall)
+
+
+It was beneficial to learn about and use them and would consider for future. Detrimental in terms of forgetting about them sometimes and auto grading and losing a chance (r74_LintOverall)
+
+
+It was beneficial so that we automatically had good code. (r75_LintOverall)
+
+
+Lint helped to ensure that there were no unused variables, or methods that might be unnecesarily taking up space. Sometimes unused variables are needed for formatting though. (r76_LintOverall)
+
+
+Good, especially when just running the linter on save. (r77_LintOverall)
+
+
+It make the code more readable and understandable. (r78_LintOverall)
+
+
+It kept our code base formatted consistently, which made it easier for us to read the code, especially parts that were written by the partner. It also helped us avoid having code smells such as magic numbers. (r79_LintOverall)
+
+
+Lint was helpful during development because it kept our code clean and consistent for both me and my partner. It caught small issues early, like unused variables or formatting problems, which saved time during testing. Sometimes it was a bit annoying when it complained about minor things, but overall it helped us write better code and avoid bugs. It also made our code easier to read and work with. (r80_LintOverall)
+
+
+Lint helped with code quality and I have a positive experience with it. (r81_LintOverall)
+
+
+Overall it was beneficial and would mirror what is used in the industry (r82_LintOverall)
+
+
+It definitely kept my inner solo-dev in check by reminding me to split up large files, keep lines short, and reduce magic numbers. However, it was a little annoying when it would complain about magic numbers in a test suite. (r83_LintOverall)
+
+
+It definitely helped me avoid potential defects throughout the project. However, it forced me to focus on performance when I just wanted to try something out first. (r84_LintOverall)
+
+
+Beneficial in finding easy to ignore bugs (r85_LintOverall)
+
+
+Except for the magic number error, I like linter (r94_LintOverall)
+
+The linter would say magic number for anything other than 2 which was annoying. 
+
+
+Also class length was frustrating - especially if we were not at the refactoring phase yet (r86_LintOverall)
+
+
+Really only came to dislike it when it came to magic numbers, but it did force me to adjust my code to factor those out so I guess it was for the best. (r87_LintOverall)
+
+
+readable (r88_LintOverall)
+
+
+it made the code cleaner at the end of the day and the errors were pretty easy to resolve so i do not see any reason not to have it. i wish we didnt have to run prettier separatly from the build command. it should just do it all together. as this sometimes made me waste a submission. (r89_LintOverall)
+
+
+Linting helped me identify when my class had too many responsibilities and needed to be broken down. It also helped me keep my code neater. I think sometimes it felt like a waste of time making a tiny helper method to adhere to the function length and recursive depth calls and if I'm honest with myself I did "patch-work" solutions that I don't think are very maintainable or nice to look at. (r90_LintOverall)
+
+
+it was beneficial to lint locally to ensure not failing the checkpoints especially since only 3 attempts were allowed (r91_LintOverall)
+
+
+It was annoying seeing yellow text everytime I ran yarn build after something somewhat significant. But then, seeing it fix it with prettier is very satisfying. There weren't any benefits/detriments, it was just pure feels. (r92_LintOverall)
+
+
+Detrimental - it used up a lot of AutoTest tries because the AutoTest linter was not aligned with the local linter for #check. (r93_LintOverall)
+
+
+It sometimes forced us to change implementation when it wasn’t necessary from a development point of view (r95_LintOverall)
+
+
+I already use linting in most of my projects, so it's a pretty standard operation for me at this point. Using a linter allowed me to write cleaner code, reduced my type errors, and caught syntactic/other errors before build time which was always helpful for shortening my feedback loop. (r96_LintOverall)
+
+
+I was unable to complete c0 because two of my bot calls were taken by the linter and prettier. Linting should not take a bot call. I see no reason to punish someone this strongly for forgetting to run the linter. (r97_LintOverall)
+
+
+It helped me learn how to work with a linter which I have experienced in a work setting before. (r98_LintOverall)
+
+
+lint was beneficial in that it upheld some good coding standards particularly in variable classification. It was extremely detrimental in that it forced standards of coding like line limits in functions that were so unfathomably ridiculous that they forced the code to be re-written dozens of times as even when meeting the SRP the functions which launch large segments of code need to have lots steps to break down the process (as forced by promise structure) (r99_LintOverall)
+
+
+Slightly beneficial. Just frustrating at times (r100_LintOverall)
+
+
+It was beneficial in that it helped us find errors early on and push us to have good code style. However, having to go through our code and fix minor issues in order to proceed was not the best. (r101_LintOverall)
+
+
+Beneficial: improves quality of code
+detrimental: can cause hours of frustration when All I need is to have working code (r102_LintOverall)
+
+
+It was benefical as I learnt ways to write better code such as avoiding code smells like magic numbers and long methods which I didn't know about before (r103_LintOverall)
+
+
+it forces you to drop unused variable, making code more clean (r104_LintOverall)
+
+
+Already filled up once, please discard this one!
+Sorry! but want to make sure I did submit with the correct cwl! (r105_LintOverall)
+
+
+some of the rules were helpful for the final product, like the removal of debug statements and unused variables. but there should be a way for us to disable linting completely except for when submitting the final versions. maybe the bot only counts the mark when all linting is resolved? (r106_LintOverall)
+
+
+Helped me to identify issues early on. (r107_LintOverall)
+
+
+It helped maintain a high standard of code quality. It also caused some frustrating moments where seemingly inconsequential errors were slowing down the development process. (r108_LintOverall)
+
+
+made things more readable and avoided piling garbage in code (r109_LintOverall)
+
+
+It helps with the style requirement from the autograder (r110_LintOverall)
+
+
+It helps with some code smell issues, sometimes though I just wanted to do something and had to force it through (even if it wasn’t the best designed decision). I recall for C3 I actually included a style ignore tag to get something working when the linter would keep throwing up a style error. (r111_LintOverall)
+
+
+help me understand code smell (r112_LintOverall)
+
+
+Was annoying at first but then in the long term instilled healthy development habits. (r113_LintOverall)
+
+
+I feel like I needed to do console.log a lot of times. (r114_LintOverall)
+
+
+Beneficial, because I could figure out how to fix the code thanks to it, especially because it was my first time using it (r115_LintOverall)
+
+
+It wasn't always beneficial, but it was never detrimental (r116_LintOverall)
+
+
+It makes the codes more readable and understandable. (r117_LintOverall)
+
+
+It is beneficial to follow some industrial best practices. (r118_LintOverall)
+
+
+I think lint help me to ensure my code is sustainable. (r119_LintOverall)
+
+
+I think in most cases the linter has contributed to the development process positively, however, there are times when we believe that the linter was giving unnecessary suggestions that would impede the development process. For example, there are times when the line character limit exceeded after running yarn:prettier-fix, which cause other less efficient workarounds to bypass the linter warnings. (r120_LintOverall)
+
+
+I think lint was useful because the aspects of my code that it checked for me allowed me to focus on other higher-level aspects. (r121_LintOverall)
+
+
+give a standard to my code (r122_LintOverall)
+
+
+Sometimes, it makes the code clean. Sometimes, it's so strict that I need to split a relatively logic (e.g., nested loops/callbacks) into separate named functions, though there's no need to reuse them. (r130_LintOverall)
+
+
+It was beneficial, although it didn't work for all parts of code. (r124_LintOverall)
+
+
+I felt that the linter was helpful towards my progress, since it prevented code smells from developing in C1, which would have impacted my progress in C2. However, I found that the linter would be distracting when working in WebStorm because the linter would pop up every time a new variable was declared (and had not been used yet). (r125_LintOverall)
+
+
+It was nice to get "good" code I guess. (r131_LintOverall)
+Lint was quite beneficial throughout the development process. It helped us maintain consistent code style, catch minor bugs early, and avoid bad practices like unused variables or missing semicolons. It also made merging code from different team members smoother since everyone was following the same formatting rules.
+
+At times, it felt a bit strict—especially when we were focused on functionality and just wanted to test something quickly. But overall, it improved the readability and quality of our codebase and reduced the need for nitpicky comments during code reviews. (r126_LintOverall)
+
+
+One of the things we have benefited from the linter is await in a loop warning. One thing that I don't like is the force of not using magical number. Sometimes, especially in testing, I literally just want to assert something is equal to some number, but I had to create a dummy variable for that number to pass linter. (r127_LintOverall)
+
+
+it definitely helped us in writing "good" code; but kind of went against our MVP approach (r128_LintOverall)
+
+
+Beneficial for sure in a sense that it made my code more uniform and readable, detrimental as it was simply just annoying but we had to follow it regardless because of project guidelines (r129_LintOverall)
+
+It was helpful for keeping our code formatting consistent. However, having it cause the auto grader to fail and even cost one of the daily grades was quite detrimental. (r123_LintOverall)
+
+
+It was helpful to prevent a lot of issues like having slow code from running async code in for loops, but it was also detrimental with some rules like no magic numbers or no unsused variables. It was helpful after the code was mostly done and to clean up the code, but during development it gets pretty annoying when it feels like a lot of the work went into making the linter shut up. (r132_LintOverall)
+
+
+Lint was beneficial in preventing defects in code. (r133_LintOverall)
+
+
+It helped me make my code readable. (r144_LintOverall)
+Lint was usually beneficial to avoid making obvious mistakes, but was detrimental in a few situations where we had to make our code more unreadable to go around a linter issue. The magic number rule and no unused locals rule got in our way sometimes. (r134_LintOverall)
+
+
+The linting frustrated me so many times and forced me to abstract methods when honestly I did not think it was necessary (r135_LintOverall)
+
+
+It was helpful to figure out code issues and have a better code from the beginning itself (r136_LintOverall)
+
+
+for the most part it was helpful for consistency, but we felt like some of the rules were impeding us, so we changed them (r137_LintOverall)
+
+
+I think it was just a good constant reminder of the good practices used in the field. (r138_LintOverall)
+
+
+Lint was highly beneficial for pointing out when a function/files was getting to big an had to be refactored. There wasn't anything specifically detrimental about linter (r139_LintOverall)
+
+
+Sometimes beneficial to be reminded of some of the design principles or have some bugs be caught, but also sometimes annoying to deal with in the middle of debugging and trying to get things to work. (r140_LintOverall)
+
+
+i didnt care enough. i just ran yarn lint to pass autograde (r141_LintOverall)
+
+
+The linter definitely helped us out in our coding, by providing suggestions and errors, it gave us direction which was definitely beneficial in our development process. (r142_LintOverall)
+
+
+lint did help prevent spaghetti code, but lint being too pedantic on LoC limit was sometimes obstructive because it is not uncommon for parsers to have expansive switch arms (okay, switch on types, but industrial parsers do have long switch arms) (r143_LintOverall)
+
+Lint improved my development process by ensuring consistent code style, helping us maintain industry standard practices, and identifying potential bugs early on, which ultimately made teamwork and debugging more efficient. (r145_LintOverall)
+
+
+The linter became more "annoying" in C2 as we added the rooms and suddenly had the linter yelling at us for making our classes to long. While refactoring took a second to do, I will say it was much more helpful in the long run as our code was more readable and any additions ended up being quicker to add once we removed a lot of the issues with divergent changes. (r146_LintOverall)
+
+
+Identified code smells early (r147_LintOverall)
+
+
+It was very beneficial and I am thinking how to integrate it in my future work (r148_LintOverall)
+
+
+very beneficial tbh, design mainly. making code readable and even slightly more optimized. For example the one related to the promise.all() that you have to make map() run asynchronously. (r149_LintOverall)
+
+
+The no magic numbers linter really affected the way i wrote tests and made that process difficult trying to assert certain values were true.
+
+Unused variables was also annoying as sometimes i just wanted a variable that was not used like in a catch block and i couldnt make the variable an _ because _ broke naming conventions or something. (r150_LintOverall)
+
+
+For the most part it was ok. I wish I would have changed the rules sooner. (r151_LintOverall)
+
+
+It was only minorly detrimental for testing the rooms functionality because not allowing magic numbers made it annoying to keep adding constants because those constants never needed to be changed as the data for the rooms numbers and lat and lon are static anyways (r152_LintOverall)
+
+
+I helps to improve code quality and style (r153_LintOverall)
+
+
+help me avoid writing defects (r154_LintOverall)
+
+
+It was beneficial for the most part, as it taught me about code smells and reinforced the rules whenever I broke it. It is one thing to learn about it, it is another to see how often you commit it in application. (r155_LintOverall)
+
+
+It was helpful to maintain code that at least looked beautiful! (r156_LintOverall)
+
+
+I use linter as well for my personal project for code syntax detection and formatting, so I would say lint is beneficial in this project. (r157_LintOverall)
+
+
+Pros:
+====
+- Catch common mistakes (e.g.) await within for-loop
+- Set-up consistent rules that make good coding habits more likely (e.g.) Character limit per line and max # of lines per file (r158_LintOverall)
+
+
+It was beneficial because I think it's a common practice in industry, so using it in a project is practical. Aside from that it's good practice to enforce non smelly code. (r159_LintOverall)
+
+
+It was beneficial because it helped me improve my code and reminded me of places I meant to come back to in order to clean up (e.g. unused variables, etc). It was occasionally detrimental when I forgot to run the linter and ended up using a grading submission to get no feedback. (r160_LintOverall)
+
+
+it made my code more readable and helped me to identify some basic semantic errors. (r161_LintOverall)
+
+
+Lint was definitely beneficial for avoid long method/class code smells. If my understanding of the linter is correct, it also was helpful for identifying when an in-line variable would be more appropriate kind of thing which is can be very helpful when using a language for the first time like we were (r162_LintOverall)
+
+
+Lint was beneficial. (r167_LintOverall)
+Linting did limit to a degree during the checkpoint 0 where it made it harder to isolate tests without also commenting out many different variables. Aside from that, the linter helped me during the development more than it hurt. (r163_LintOverall)
+
+
+Honestly, I do not remember my interactions with the linter too much. At this point using it is second nature to me, so I just don't remember at all how beneficial it was to me. (r164_LintOverall)
+
+
+I never found the lint detrimental. I wish lint is used by every project! (r165_LintOverall)
+
+
+Beneficial by basically normalizing our process, detrimental by adding additional work (r166_LintOverall)
+
+
+Lint was useful in helping with any obvious code smells that would impede any further extensions or modifications. (r168_LintOverall)
+
+
+It was especially helpful for me to prevent await in loops and follow good design practices, but most of the time it was a bit annoying because most of the things it was complaining about were things that I was going to fix anyway after writing what I was writing. But i still kept it as we had to follow the linter in order to get autograded. I think I would prefer it a lot more if it was a command you ran after compiling instead of always watching your code. (r169_LintOverall)
+
+
+Sometimes it was annoying to have to fix the errors it was pointing out like a longer than X char line since that wasnt really logic related but mostly it was good in keeping us accountable to standards and writing quality code. I found lint complains specially helpful in modularizing our implementation (i.e. not letting us have huge classes / methods). (r170_LintOverall)
+
+
+Most obviously there were some errors that were a little difficult to interpret, but in general it was positive, because it forced us to write more consistent code, even when we felt like getting lazy. (r171_LintOverall)
+
+
+
+Overall I think the interaction with the lent third semester was more neutral. Yes it made my code cleaner, but when I’m writing it, I want to focus on writing it. There were often times where I would run my code and I would get a linter error. As a consequence, I would need to submit the code again to the auto grader. Sometimes they would cost me an attempt which I think was not necessary. (r172_LintOverall)
+
+
+It became a habit checking for lint errors before submitting for grade which I believe would be helpful in the future. Checking for lint errors in stages instead of after writing the whole project would save you a whole lot of time in refactoring. (r173_LintOverall)
+
+
+Beneficial: consistent structure
+Detriment: sometimes annoying to work around the rules (r174_LintOverall)
+
+
+It helped us be more conscious of functions/methods that were too long and gave us some guidance in when we should consider better abstractions but at times it felt too restrictive as said above (r175_LintOverall)
+
+
+It was helpful in that it helped sometimes with some wrong code, but specifically the function lengths, magic numbers, and also changing let -&gt; const were annoying and especially the let to const change kept interrupting my "thinking space" and I kept losing focus on what I wanted to actually do. (r176_LintOverall)
+
+
+I thought it was helpful in maintaining clean and readable code. I don't recall any instance where the linter impeded my development. (r177_LintOverall)
+
+
+beneficial (r178_LintOverall)
+
+
+I found it very helpful to catch code smells and small issues before they arose in a submission or production. (r179_LintOverall)
+
+
+It went both ways, it sometimes made development a bit too much longer and felt unneeded, but the other half I understand why it needs to be that way. Overall I would say it is beneficial only to a degree. (r180_LintOverall)
+It helped me adhere to good design practices, like keeping functions short. It was sometimes frustrating and led to me making questionable design choices just to adhere to the linters rules. (r181_LintOverall)
+
+
+it was great since me and my partner both followed guidelines when writing the code, this led to a more clean and appealing approach. (r182_LintOverall)
+
+
+beneficial as it caught obvious mistakes (r183_LintOverall)
+
+
+I barely remember it tbh (r184_LintOverall)
+
+
+I think it was useful in long term maintainability, i.e. when I look at a piece of code I haven't look at in a while, however, I found it frustrating when I forget to run the linter check before commiting the code (r185_LintOverall)
+
+
+I feel like it encouraged good coding principles, so it felt beneficial even though it may have slowed down a few tasks. (r186_LintOverall)
+
+
+pretty beneficial and helpful in terms of the study of basic coding ability (r187_LintOverall)
+
+
+The code is tidier (r188_LintOverall)
+
+
+It helped in maintaining readable, clean code (r189_LintOverall)
+
+
+The linter was generally well documented and I was never confused as to what the error was. However, I feel that the magic numbers rule should be disabled in test (.spec) files, as it significantly obstructed development there. (r190_LintOverall)
+
+
+Overall it was pretty helpful, I personally use it for my other projects as well, it's just a good thing to have to keep the code clean and maintainable (which is an important for sustainable development, part of a good software process). (r191_LintOverall)
+
+
+Sometimes it errors out when we had unfinished code but thats not really that bad. It did catch some loop awaits for us which was good (r192_LintOverall)
+
+
+I think it was beneficial as someone who was learning how to use TypeScript for the first time. It was good at catching semantic mistakes like awaiting a promise in a loop. It definitely saved a lot of time from going over the code in detail looking for stuff like that. (r193_LintOverall)
+
+
+better coding habbit (r194_LintOverall)
+
+
+Linting was beneficial overall in CPSC 310. It helped us catch small bugs early, enforced consistent coding style across the team, and made the codebase more readable and maintainable. While it occasionally felt strict, it ultimately improved collaboration and reduced friction during code reviews and merges. (r195_LintOverall)
+
+
+It was beneficial for checking syntax, sometimes we would make the code "prettier" and then go over a line limit though and it wouldn't pass the autograder check either. (r196_LintOverall)
+
+
+It was beneficial as it allowed us to reflect on how we should design and write our code. It makes us keep in mind the principles, for instance, a method should not be too long since it should only contain one responsibility and should be readable. (r197_LintOverall)
+
+
+Beneficial: Helps find some issues with code smell
+Detrimental: Linters can only spot a few code quality issues, definitely not all. When the linger said everything works well, we could be complacent with our code quality, even though there could be way more to improve on (r198_LintOverall)
+
+
+Beneficial: Helped me really consider design principles. Detrimental: Sometimes was too limiting. (r199_LintOverall)
+
+
+It was good because it avoided messy cluttered code- (r200_LintOverall)
+
+
+Depending on the linting I think that it could be useful. For this course in particular I think that the linting was too strict. For instance, I would get magic number errors while writing test cases which I think is ridiculous...
+
+I also believe that even in the industry there are often times when a long function or file make sense. I often found myself breaking apart functions into many functions and then breaking apart those files into many files because I kept running into linting problems. The linting was useful to see dynamically where problems were without having to build every time. (r201_LintOverall)
+
+
+Beneficial (r202_LintOverall)
+
+
+It was detrimental when we had long methods and classes and were under a time constraint. It was beneficial since it kept all the code consistently formatted without having to pay too much attention to this explicitly. (r203_LintOverall)
+
+
+As above, it helped with developing high quality code (r204_LintOverall)
+
+
+Lint was mostly beneficial to the development process since rules like no-await-in-loop or security plug-ins could flag hidden pitfalls one might miss when tired or rushing. It was also lighting up forgotten pathways after a big rename/extract, reducing regressions. However sometimes the flow breaks because we were stopping coding to satisfy cosmetic errors (r205_LintOverall)
+
+
+The lint was beneficial in helping us properly format the code. Sometimes it was annoying because it would say things like the method is too long, even if it was even over by one line (r206_LintOverall)
+
+
+… drawing a blank. 
+But the linter helped me to break bigger functions to smaller ones. (r207_LintOverall)
+
+
+It was helpful for merge conflicts I think (r208_LintOverall)
+
+
+
+Benefical because it kept the code clean, made sure there were no redundancies or semantic errors which would surely have been a pain later in the project. It was detrimental only in the way that initially it was a bit of a trouble to figure out certain errors. Generally pretty helpful and would definitely want to use it for any future projects. (r209_LintOverall)
+
+
+The linter ensures that many critical errors related to the logic and formatting are quickly caught, so that these errors do not build up and become difficult to alter later on. This saved me significant amount of time. (r210_LintOverall)
+
+
+Sometimes our lint didn't pass and we had to go back to figure out the areas causing the smaller issues rather than spending the time working on our overall implementation. However, this was needed as our quality of code was maintained better. (r211_LintOverall)
+
+
+There was an instance where we created a long regex expression that went over the allowed limit for a line and as a result, we couldn't use it without receiving a lint error as we had no way of shortening it. Other than that, lint has been generally useful in reminding us of good coding practices since it would prevent me from inserting magic numbers or making long functions. (r212_LintOverall)
+
+
+It was detrimental in that it wouldn't even allow us to build and test even for a draft solution. It was beneficial in that it forced us to be tidy and follow best practices. (r213_LintOverall)
+
+
+Linting was beneficial for maintaining consistent code style and catching minor semantic issues, however, there were a few times with magic numbers that felt a little detrimental. For example, when testing if a dataset list contains a certain number of items, we couldn't just assert 2 or 3 directly. (r214_LintOverall)
+

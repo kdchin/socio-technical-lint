@@ -1,0 +1,71 @@
+NN_teams_added_default_config_keys 131
+NN_teams_added_initial_key_different_value 3
+NN_sha's with diffs 103 / 237
+Avg diff size 1.6893203883495145
+Teams that ended with a disabled ruleset 0
+Rules turned off
+Counter({'no-magic-numbers': 11,
+         'max-lines-per-function': 9,
+         'max-lines': 8,
+         'max-len': 5,
+         'max-lines-per-function': 4,
+         'max-lines': 4,
+         'no-unused-vars': 3,
+         'no-await-in-loop': 3,
+         'jsdoc/no-bad-blocks': 2,
+         'max-nested-callbacks': 2,
+         'jsdoc/check-indentation': 2,
+         'jsdoc/require-asterisk-prefix': 2,
+         'jsdoc/check-alignment': 2,
+         'prefer-const': 2,
+         'prefer-for-of': 1,
+         'prefer-optional-chain': 1,
+         'explicit-function-return-type': 1,
+         'no-console': 1,
+         'no-shadow': 1})
+Rules turned to warn
+Counter({'max-nested-callbacks': 2,
+         'no-eval': 1,
+         'prefer-optional-chain': 1,
+         'no-misused-promises': 1,
+         'await-thenable': 1,
+         'no-var': 1,
+         'no-await-in-loop': 1,
+         'no-shadow': 1,
+         'eqeqeq': 1,
+         'ban-tslint-comment': 1,
+         'no-floating-promises': 1,
+         'consistent-generic-constructors': 1,
+         'explicit-member-accessibility': 1,
+         'no-async-promise-executor': 1,
+         'prefer-for-of': 1,
+         'naming-convention': 1,
+         'dot-notation': 1,
+         'promise-function-async': 1,
+         'max-len': 1,
+         'prefer-const': 1,
+         'max-lines-per-function': 1,
+         'max-lines': 1})
+Rules turned back on
+Counter()
+Rules numerically extended
+{'max-len': 13,
+ 'max-lines': 31,
+ 'max-lines-per-function': 28,
+ 'max-nested-callbacks': 5}
+n extended
+{'max-len': 13,
+ 'max-lines': 31,
+ 'max-lines-per-function': 28,
+ 'max-nested-callbacks': 4}
+avg extension
+{'max-len': 10.0,
+ 'max-lines': 150.0,
+ 'max-lines-per-function': 15.0,
+ 'max-nested-callbacks': 1.0}
+Rules modified other
+{'max-nested-callbacks': 2,
+ 'jsdoc/check-alignment': 2,
+ 'jsdoc/check-indentation': 2,
+ 'jsdoc/no-bad-blocks': 2,
+ 'jsdoc/require-asterisk-prefix': 2}

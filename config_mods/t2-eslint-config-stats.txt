@@ -1,0 +1,49 @@
+NN_teams_added_default_config_keys 133
+NN_teams_added_initial_key_different_value 4
+NN_sha's with diffs 126 / 560
+Avg diff size 1.753968253968254
+Teams that ended with a disabled ruleset 11
+Rules turned off
+Counter({'no-await-in-loop': 14,
+         'max-lines-per-function': 4,
+         'no-unused-vars': 4,
+         'max-lines': 3,
+         'no-console': 3,
+         'prefer-for-of': 2,
+         'no-shadow': 2,
+         'no-eval': 2,
+         'dot-notation': 2,
+         'prefer-const': 2,
+         'explicit-function-return-type': 1,
+         '@typescript-eslint/explicit-function-return-type': 1})
+Rules turned to warn
+Counter({'no-unused-vars': 5,
+         'max-lines': 2,
+         'max-lines-per-function': 2,
+         'max-len': 2,
+         'consistent-generic-constructors': 1,
+         'dot-notation': 1,
+         '@typescript-eslint/no-unused-vars': 1})
+
+Rules turned back on
+Counter()
+
+Rules numerically extended
+{'max-len': 27,
+ 'max-lines': 63,
+ 'max-lines-per-function': 68,
+ 'max-nested-callbacks': 6}
+n extended
+{'max-len': 26,
+ 'max-lines': 62,
+ 'max-lines-per-function': 66,
+ 'max-nested-callbacks': 6}
+avg extension
+{'max-len': 30.0,
+ 'max-lines': 200.0,
+ 'max-lines-per-function': 30.0,
+ 'max-nested-callbacks': 3.0}
+Rules modified other
+{'no-eval': 1,
+ 'no-floating-promises': 1,
+ 'no-magic-numbers': 1}
