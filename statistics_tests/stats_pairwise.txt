@@ -1,0 +1,84 @@
+==============================================================================
+PAIRWISE T-TESTS  (grouping=lint_count, stat=avg)
+Group sizes: not-opted(n=69)  none(n=155)  few(n=61)  many(n=45)
+==============================================================================
+Groups                   Metric                   t        p       MW-p         d  effect         rb
+────────────────────────────────────────────────────────────────────────────────────────────────────
+not-opted vs none        mccabe              +7.341   0.0000    0.0000   +1.414  large     -0.673
+                         halstead            +5.720   0.0000    0.0000   +1.161  large     -0.662
+                         n_identifiers       +6.163   0.0000    0.0000   +1.189  large     -0.613
+                         size                +7.063   0.0000    0.0000   +1.374  large     -0.675
+                         fan_out             +5.717   0.0000    0.0000   +1.067  large     -0.554
+
+not-opted vs few         mccabe              +4.996   0.0000    0.0000   +0.858  large     -0.549
+                         halstead            +4.538   0.0000    0.0000   +0.769  medium    -0.601
+                         n_identifiers       +4.964   0.0000    0.0000   +0.846  large     -0.576
+                         size                +5.292   0.0000    0.0000   +0.906  large     -0.582
+                         fan_out             +4.432   0.0000    0.0000   +0.762  medium    -0.522
+
+not-opted vs many        mccabe              +2.582   0.0112    0.0070   +0.475  small     -0.300
+                         halstead            +2.216   0.0287    0.0113   +0.385  small     -0.282
+                         n_identifiers       +2.044   0.0433    0.0241   +0.368  small     -0.251
+                         size                +2.168   0.0324    0.0276   +0.396  small     -0.245
+                         fan_out             +1.879   0.0629    0.0521   +0.343  small     -0.216
+
+none vs few              mccabe              -1.836   0.0702    0.3813   -0.344  small     +0.077
+                         halstead            -1.157   0.2511    0.8523   -0.219  small     +0.016
+                         n_identifiers       -0.836   0.4054    0.9990   -0.148  small     -0.000
+                         size                -1.222   0.2254    0.9605   -0.228  small     +0.004
+                         fan_out             -0.605   0.5465    0.7800   -0.108  small     -0.025
+
+none vs many             mccabe              -3.685   0.0006    0.0003   -0.891  large     +0.357
+                         halstead            -3.934   0.0003    0.0001   -0.956  large     +0.393
+                         n_identifiers       -3.759   0.0004    0.0001   -0.873  large     +0.386
+                         size                -4.193   0.0001    0.0000   -1.016  large     +0.444
+                         fan_out             -3.286   0.0018    0.0007   -0.733  medium    +0.332
+
+few vs many              mccabe              -1.974   0.0517    0.0243   -0.399  small     +0.257
+                         halstead            -2.578   0.0117    0.0022   -0.520  medium    +0.349
+                         n_identifiers       -2.753   0.0073    0.0012   -0.562  medium    +0.368
+                         size                -2.816   0.0061    0.0010   -0.571  medium    +0.375
+                         fan_out             -2.357   0.0207    0.0046   -0.472  small     +0.323
+
+==============================================================================
+PAIRWISE T-TESTS  (grouping=fail_lint, stat=avg)
+Group sizes: not-opted(n=69)  none(n=23)  few(n=160)  many(n=78)
+==============================================================================
+Groups                   Metric                   t        p       MW-p         d  effect         rb
+────────────────────────────────────────────────────────────────────────────────────────────────────
+not-opted vs none        mccabe              +2.660   0.0107    0.0018   +0.577  medium    -0.436
+                         halstead            +2.265   0.0269    0.0132   +0.427  small     -0.347
+                         n_identifiers       +2.298   0.0253    0.0177   +0.455  small     -0.332
+                         size                +2.318   0.0250    0.0102   +0.505  medium    -0.360
+                         fan_out             +1.467   0.1487    0.1065   +0.307  small     -0.226
+
+not-opted vs few         mccabe              +6.068   0.0000    0.0000   +1.049  large     -0.571
+                         halstead            +4.901   0.0000    0.0000   +0.923  large     -0.574
+                         n_identifiers       +5.289   0.0000    0.0000   +0.937  large     -0.538
+                         size                +5.992   0.0000    0.0000   +1.056  large     -0.584
+                         fan_out             +4.874   0.0000    0.0000   +0.838  large     -0.482
+
+not-opted vs many        mccabe              +6.746   0.0000    0.0000   +1.162  large     -0.641
+                         halstead            +5.538   0.0000    0.0000   +0.963  large     -0.668
+                         n_identifiers       +5.817   0.0000    0.0000   +1.006  large     -0.614
+                         size                +6.418   0.0000    0.0000   +1.107  large     -0.633
+                         fan_out             +5.669   0.0000    0.0000   +0.975  large     -0.579
+
+none vs few              mccabe              +1.336   0.1932    0.2237   +0.367  small     -0.157
+                         halstead            +1.729   0.0958    0.0693   +0.471  small     -0.235
+                         n_identifiers       +1.754   0.0908    0.0631   +0.441  small     -0.240
+                         size                +1.631   0.1154    0.1367   +0.470  small     -0.192
+                         fan_out             +2.096   0.0458    0.0261   +0.537  medium    -0.288
+
+none vs many             mccabe              +1.850   0.0757    0.1200   +0.599  medium    -0.215
+                         halstead            +2.335   0.0277    0.0212   +0.775  medium    -0.318
+                         n_identifiers       +2.219   0.0352    0.0505   +0.689  medium    -0.270
+                         size                +1.967   0.0601    0.0845   +0.648  medium    -0.238
+                         fan_out             +2.756   0.0103    0.0051   +0.838  large     -0.386
+
+few vs many              mccabe              +1.312   0.1909    0.4501   +0.162  small     -0.060
+                         halstead            +1.556   0.1212    0.4610   +0.188  small     -0.059
+                         n_identifiers       +1.069   0.2864    0.6453   +0.131  small     -0.037
+                         size                +0.915   0.3614    0.6950   +0.114  small     -0.031
+                         fan_out             +1.540   0.1251    0.3531   +0.193  small     -0.074
+

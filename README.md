@@ -1,10 +1,10 @@
-# Replication Package for Rethinking the Socio-Technical Challenges and Outcomes of Linting
+# Replication Package for From Checking to Comprehension: Rethinking Linting's Role in Software Teams
 
 [config_mods](./config_mods/) contains overal statistics of which lint rules were changed and how often.
 
 [data](./data/) contains `ineligible.txt` (the projects that were excluded from analysis due to inactivity), `per_sha_metrics.json` (code quality metrics at every commit for every project), and `replication_backup.gz`, which contains all the project data including lint build failures, lint configuration changes, and inline lint configuration changes. See below for instructions and schema.
 
-[statistics_tests](./statistics_tests/) contains the output of regression analysis and ANOVA between the lint features and code metrics.
+[statistics_tests](./statistics_tests/) contains the output of regression analysis and ANOVA between the lint features and code metrics, in addition to instrumented statistics tests for test scores and pairwise grouping of features presented in the paper
 
 [survey](./survey/) contains the survey questions asked and responses for the free text questions.
 
